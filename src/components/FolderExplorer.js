@@ -24,7 +24,6 @@ const FolderExplorer = ({ handleNodeInsertion, explorerData }) => {
     }
   }
 
-  console.log("Data@", explorerData);
   if (explorerData.isFolder) {
     return (
       <div style={{ marginTop: 10 }}>
